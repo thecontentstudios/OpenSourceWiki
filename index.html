@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenSourceWiki - Your Library of Open Source Tools</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>OpenSourceWiki</h1>
+            <p class="tagline">A comprehensive library of open source tools for every need</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="search-section">
+            <input type="text" id="searchInput" placeholder="Search for tools..." />
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-category="all">All</button>
+            </div>
+        </section>
+
+        <section id="stats" class="stats-section">
+            <div class="stat-card">
+                <h3 id="totalTools">0</h3>
+                <p>Total Tools</p>
+            </div>
+            <div class="stat-card">
+                <h3 id="totalCategories">0</h3>
+                <p>Categories</p>
+            </div>
+        </section>
+
+        <section id="toolsContainer" class="tools-grid">
+            <!-- Tools will be dynamically loaded here -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 OpenSourceWiki - Free and Open Source</p>
+            <p class="download-info">
+                <strong>Download this wiki:</strong> Clone or download this repository to use offline!
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

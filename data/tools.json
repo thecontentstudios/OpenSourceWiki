@@ -1,0 +1,331 @@
+{
+  "categories": [
+    "Development",
+    "Design",
+    "Productivity",
+    "Security",
+    "DevOps",
+    "Database",
+    "Content Management",
+    "Communication",
+    "Media",
+    "System Tools"
+  ],
+  "tools": [
+    {
+      "id": 1,
+      "name": "VS Code",
+      "description": "A powerful, lightweight code editor with support for debugging, Git integration, syntax highlighting, and extensions.",
+      "url": "https://github.com/microsoft/vscode",
+      "category": "Development",
+      "license": "MIT",
+      "tags": ["editor", "ide", "typescript", "javascript"]
+    },
+    {
+      "id": 2,
+      "name": "Git",
+      "description": "Distributed version control system for tracking changes in source code during software development.",
+      "url": "https://github.com/git/git",
+      "category": "Development",
+      "license": "GPL-2.0",
+      "tags": ["version-control", "collaboration", "cli"]
+    },
+    {
+      "id": 3,
+      "name": "Docker",
+      "description": "Platform for developing, shipping, and running applications in containers.",
+      "url": "https://github.com/docker",
+      "category": "DevOps",
+      "license": "Apache-2.0",
+      "tags": ["containers", "deployment", "virtualization"]
+    },
+    {
+      "id": 4,
+      "name": "Kubernetes",
+      "description": "Container orchestration platform for automating deployment, scaling, and management of containerized applications.",
+      "url": "https://github.com/kubernetes/kubernetes",
+      "category": "DevOps",
+      "license": "Apache-2.0",
+      "tags": ["orchestration", "containers", "cloud-native"]
+    },
+    {
+      "id": 5,
+      "name": "PostgreSQL",
+      "description": "Advanced open source relational database with strong support for SQL standards.",
+      "url": "https://www.postgresql.org/",
+      "category": "Database",
+      "license": "PostgreSQL License",
+      "tags": ["sql", "relational", "database"]
+    },
+    {
+      "id": 6,
+      "name": "MySQL",
+      "description": "Popular open source relational database management system.",
+      "url": "https://github.com/mysql/mysql-server",
+      "category": "Database",
+      "license": "GPL-2.0",
+      "tags": ["sql", "relational", "database"]
+    },
+    {
+      "id": 7,
+      "name": "MongoDB",
+      "description": "Document-oriented NoSQL database for modern applications.",
+      "url": "https://github.com/mongodb/mongo",
+      "category": "Database",
+      "license": "SSPL",
+      "tags": ["nosql", "document", "database"]
+    },
+    {
+      "id": 8,
+      "name": "Redis",
+      "description": "In-memory data structure store used as database, cache, and message broker.",
+      "url": "https://github.com/redis/redis",
+      "category": "Database",
+      "license": "BSD-3-Clause",
+      "tags": ["cache", "in-memory", "key-value"]
+    },
+    {
+      "id": 9,
+      "name": "GIMP",
+      "description": "Free and open source image editor for photo retouching, image composition, and image authoring.",
+      "url": "https://www.gimp.org/",
+      "category": "Design",
+      "license": "GPL-3.0",
+      "tags": ["image-editing", "graphics", "photo"]
+    },
+    {
+      "id": 10,
+      "name": "Inkscape",
+      "description": "Professional vector graphics editor for creating illustrations, diagrams, and logos.",
+      "url": "https://inkscape.org/",
+      "category": "Design",
+      "license": "GPL-3.0",
+      "tags": ["vector", "svg", "graphics"]
+    },
+    {
+      "id": 11,
+      "name": "Blender",
+      "description": "Complete 3D creation suite supporting modeling, animation, rendering, and more.",
+      "url": "https://www.blender.org/",
+      "category": "Design",
+      "license": "GPL-3.0",
+      "tags": ["3d", "modeling", "animation", "rendering"]
+    },
+    {
+      "id": 12,
+      "name": "WordPress",
+      "description": "Popular content management system powering over 40% of websites worldwide.",
+      "url": "https://github.com/WordPress/WordPress",
+      "category": "Content Management",
+      "license": "GPL-2.0",
+      "tags": ["cms", "blogging", "web"]
+    },
+    {
+      "id": 13,
+      "name": "LibreOffice",
+      "description": "Powerful office suite with word processor, spreadsheet, presentation software, and more.",
+      "url": "https://www.libreoffice.org/",
+      "category": "Productivity",
+      "license": "MPL-2.0",
+      "tags": ["office", "documents", "spreadsheet"]
+    },
+    {
+      "id": 14,
+      "name": "Nextcloud",
+      "description": "Self-hosted cloud storage and collaboration platform.",
+      "url": "https://github.com/nextcloud",
+      "category": "Productivity",
+      "license": "AGPL-3.0",
+      "tags": ["cloud", "storage", "collaboration"]
+    },
+    {
+      "id": 15,
+      "name": "Obsidian",
+      "description": "Powerful knowledge base that works on local markdown files.",
+      "url": "https://obsidian.md/",
+      "category": "Productivity",
+      "license": "Proprietary (Free)",
+      "tags": ["notes", "markdown", "knowledge-management"]
+    },
+    {
+      "id": 16,
+      "name": "VLC Media Player",
+      "description": "Multimedia player that plays most multimedia files and various streaming protocols.",
+      "url": "https://www.videolan.org/vlc/",
+      "category": "Media",
+      "license": "GPL-2.0",
+      "tags": ["video", "audio", "player"]
+    },
+    {
+      "id": 17,
+      "name": "OBS Studio",
+      "description": "Free and open source software for video recording and live streaming.",
+      "url": "https://obsproject.com/",
+      "category": "Media",
+      "license": "GPL-2.0",
+      "tags": ["streaming", "recording", "video"]
+    },
+    {
+      "id": 18,
+      "name": "Audacity",
+      "description": "Multi-track audio editor and recorder.",
+      "url": "https://www.audacityteam.org/",
+      "category": "Media",
+      "license": "GPL-2.0",
+      "tags": ["audio", "editing", "recording"]
+    },
+    {
+      "id": 19,
+      "name": "Wireshark",
+      "description": "Network protocol analyzer for troubleshooting and security analysis.",
+      "url": "https://www.wireshark.org/",
+      "category": "Security",
+      "license": "GPL-2.0",
+      "tags": ["network", "security", "analysis"]
+    },
+    {
+      "id": 20,
+      "name": "KeePassXC",
+      "description": "Cross-platform password manager with strong encryption.",
+      "url": "https://keepassxc.org/",
+      "category": "Security",
+      "license": "GPL-2.0",
+      "tags": ["password", "encryption", "security"]
+    },
+    {
+      "id": 21,
+      "name": "Bitwarden",
+      "description": "Open source password management solution for individuals and businesses.",
+      "url": "https://github.com/bitwarden",
+      "category": "Security",
+      "license": "GPL-3.0",
+      "tags": ["password", "encryption", "cloud"]
+    },
+    {
+      "id": 22,
+      "name": "Rocket.Chat",
+      "description": "Open source team communication platform with chat, video conferencing, and file sharing.",
+      "url": "https://github.com/RocketChat/Rocket.Chat",
+      "category": "Communication",
+      "license": "MIT",
+      "tags": ["chat", "messaging", "collaboration"]
+    },
+    {
+      "id": 23,
+      "name": "Element",
+      "description": "Secure messaging and collaboration app built on Matrix protocol.",
+      "url": "https://element.io/",
+      "category": "Communication",
+      "license": "Apache-2.0",
+      "tags": ["chat", "messaging", "encryption"]
+    },
+    {
+      "id": 24,
+      "name": "Linux",
+      "description": "Open source operating system kernel used in countless distributions.",
+      "url": "https://www.kernel.org/",
+      "category": "System Tools",
+      "license": "GPL-2.0",
+      "tags": ["os", "kernel", "unix"]
+    },
+    {
+      "id": 25,
+      "name": "Ubuntu",
+      "description": "Popular Linux distribution based on Debian, known for user-friendliness.",
+      "url": "https://ubuntu.com/",
+      "category": "System Tools",
+      "license": "Various",
+      "tags": ["linux", "os", "distribution"]
+    },
+    {
+      "id": 26,
+      "name": "Ansible",
+      "description": "Automation platform for configuration management, application deployment, and task automation.",
+      "url": "https://github.com/ansible/ansible",
+      "category": "DevOps",
+      "license": "GPL-3.0",
+      "tags": ["automation", "configuration", "deployment"]
+    },
+    {
+      "id": 27,
+      "name": "Jenkins",
+      "description": "Automation server for building, testing, and deploying software.",
+      "url": "https://github.com/jenkinsci/jenkins",
+      "category": "DevOps",
+      "license": "MIT",
+      "tags": ["ci-cd", "automation", "deployment"]
+    },
+    {
+      "id": 28,
+      "name": "Terraform",
+      "description": "Infrastructure as code software tool for building, changing, and versioning infrastructure.",
+      "url": "https://github.com/hashicorp/terraform",
+      "category": "DevOps",
+      "license": "MPL-2.0",
+      "tags": ["infrastructure", "cloud", "automation"]
+    },
+    {
+      "id": 29,
+      "name": "Node.js",
+      "description": "JavaScript runtime built on Chrome's V8 engine for server-side applications.",
+      "url": "https://nodejs.org/",
+      "category": "Development",
+      "license": "MIT",
+      "tags": ["javascript", "runtime", "backend"]
+    },
+    {
+      "id": 30,
+      "name": "Python",
+      "description": "High-level programming language known for readability and versatility.",
+      "url": "https://www.python.org/",
+      "category": "Development",
+      "license": "PSF",
+      "tags": ["programming", "language", "scripting"]
+    },
+    {
+      "id": 31,
+      "name": "React",
+      "description": "JavaScript library for building user interfaces with component-based architecture.",
+      "url": "https://github.com/facebook/react",
+      "category": "Development",
+      "license": "MIT",
+      "tags": ["javascript", "ui", "frontend", "library"]
+    },
+    {
+      "id": 32,
+      "name": "Vue.js",
+      "description": "Progressive JavaScript framework for building user interfaces.",
+      "url": "https://github.com/vuejs/vue",
+      "category": "Development",
+      "license": "MIT",
+      "tags": ["javascript", "ui", "frontend", "framework"]
+    },
+    {
+      "id": 33,
+      "name": "Django",
+      "description": "High-level Python web framework that encourages rapid development.",
+      "url": "https://github.com/django/django",
+      "category": "Development",
+      "license": "BSD-3-Clause",
+      "tags": ["python", "web", "framework", "backend"]
+    },
+    {
+      "id": 34,
+      "name": "Grafana",
+      "description": "Analytics and monitoring platform with support for multiple data sources.",
+      "url": "https://github.com/grafana/grafana",
+      "category": "DevOps",
+      "license": "AGPL-3.0",
+      "tags": ["monitoring", "visualization", "metrics"]
+    },
+    {
+      "id": 35,
+      "name": "Prometheus",
+      "description": "Monitoring system and time series database.",
+      "url": "https://github.com/prometheus/prometheus",
+      "category": "DevOps",
+      "license": "Apache-2.0",
+      "tags": ["monitoring", "metrics", "alerting"]
+    }
+  ]
+}
